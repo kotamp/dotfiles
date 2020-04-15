@@ -22,3 +22,5 @@ websites
 !.vnc/config
 !.vnc/xstartup
 .wget-hsts
+.vim/bundle/
+.vim/.netrwhist
