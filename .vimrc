@@ -15,3 +15,7 @@ filetype plugin indent on
 set shell=/data/data/com.termux/files/usr/bin/bash
 set ruler
 set number
+
+set expandtab
+set shiftwidth=2
+set softtabstop=2
