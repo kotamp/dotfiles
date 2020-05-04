@@ -67,3 +67,6 @@ end
 function coffee
   ./node_modules/.bin/coffee $argv
 end
+
+set --export --universal EDITOR nvim
+set --export --universal VISUAL nvim
