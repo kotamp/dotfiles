@@ -1,3 +1,4 @@
+package vundle
 theme default
 theme lambda
 theme nai

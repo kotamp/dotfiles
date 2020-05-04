@@ -6,6 +6,8 @@ call vundle#begin()
 
 Plugin 'VundleVim/Vundle.vim'
 Plugin 'kchmck/vim-coffee-script'
+Plugin 'easymotion/vim-easymotion'
+Plugin 'leafo/moonscript-vim'
 
 call vundle#end()
 
@@ -19,3 +21,5 @@ set number
 set expandtab
 set shiftwidth=2
 set softtabstop=2
+
+let mapleader="\<Space>"

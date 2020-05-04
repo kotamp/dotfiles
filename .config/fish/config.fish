@@ -71,3 +71,7 @@ function setup-kotamp
   git config user.email "kinomorima@gmail.com"
   git config user.name "kotamp"
 end
+
+function coffee
+  ./node_modules/.bin/coffee $argv
+end
