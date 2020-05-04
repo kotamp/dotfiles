@@ -70,3 +70,5 @@ end
 
 set --export --universal EDITOR nvim
 set --export --universal VISUAL nvim
+
+fish_vi_key_bindings
