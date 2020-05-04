@@ -1,2 +1,3 @@
 *.swp
 w3m/*
+!w3m/bookmarks.html

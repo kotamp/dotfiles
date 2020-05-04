@@ -14,16 +14,8 @@ function vifish
   vim ~/.config/fish/config.fish
 end
 
-function refish
-  source ~/.config/fish/config.fish
-end
-
 function virc
   vim ~/.vimrc
-end
-
-function w3mb
-  w3m ~/.w3m/bookmark.html
 end
 
 function download-site
