@@ -50,12 +50,19 @@ bindsym $mod+Shift+q exec kill -SIGUSR1 swayidle
 #
 # Example configuration:
 #
-#   input "2:14:SynPS/2_Synaptics_TouchPad" {
-#       dwt enabled
-#       tap enabled
-#       natural_scroll enabled
-#       middle_emulation enabled
-#   }
+input "2321:21128:SYNA3602:00_0911:5288_Touchpad" {
+  dwt enabled
+  tap enabled
+  natural_scroll enabled
+  middle_emulation enabled
+}
+
+input * {
+  xkb_layout "us,ru"
+  xkb_variant ","
+  xkb_options "grp:win_space_toggle"
+}
+
 #
 # You can get the names of your inputs by running: swaymsg -t get_inputs
 # Read `man 5 sway-input` for more information about this section.
@@ -216,4 +223,5 @@ bar {
 }
 
 
+exec alacritty
 include /etc/sway/config.d/*

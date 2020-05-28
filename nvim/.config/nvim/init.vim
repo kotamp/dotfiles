@@ -18,9 +18,12 @@ set shell=/usr/bin/bash
 set ruler
 set number
 
+set tabstop=2
 set expandtab
 set shiftwidth=2
 set softtabstop=2
 set autoindent
+set smartindent
+set cindent
 
 let mapleader="\<Space>"

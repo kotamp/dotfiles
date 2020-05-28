@@ -72,3 +72,8 @@ set --export --universal EDITOR nvim
 set --export --universal VISUAL nvim
 
 fish_vi_key_bindings
+
+
+function add_to_path
+  set --universal fish_user_paths $fish_userPaths $argv
+end
